@@ -93,5 +93,6 @@ print(
     'Which number is the biggest modulo 5?',
     max(100, 51, 14, key=mod_5),#return largest output's input
     sep='\n',
-)
+) 
+print(x , 4)
 

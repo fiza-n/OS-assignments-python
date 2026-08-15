@@ -75,3 +75,17 @@ No, it's a {1}.
 {0}!
 {1}!""".format('planet', 'dwarf planet')
 print(s)
+
+greeting = 'Hello'
+name = 'Fiza'
+
+message = f'{greeting}, {name.upper()}. Welcome!'
+print(message)
+
+# print(help())
+
+# print(dir(message))
+print(message.islower())
+# print(message.count("is"))
+# print(message.find("am"))
+# print(message.replace("World", "Universe"))

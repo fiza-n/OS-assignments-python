@@ -70,8 +70,24 @@ print(sorted_nums)
 print(min(nums))
 print(max(nums))
 
-courses = ['History', 'Physics', 'English']
+courses = ['History', 'Physics', 'English', 22]
+list()
 # loop in list
 
 for index, course in enumerate(courses, start=1):
     print(index,course)
+
+#tuples
+information = ("Fiza", 22, courses)
+tuple()
+
+print(information)
+
+# sets (unordered and not allow duplicates)
+set()
+cs_courses = {'History', 'Physics', 'Math', 'CompSci'}
+art_courses = {'History', 'Physics', 'Art', 'Design'}
+
+print(cs_courses.intersection(art_courses))
+print(cs_courses.difference(art_courses))
+print(cs_courses.union(art_courses))

@@ -1,0 +1,3 @@
+INFO:root:Running display_info with arguments ('fiza',) and keyword arguments {'age': 21}
+INFO:root:Running display_info with arguments ('fiza',) and keyword arguments {'age': 21}
+INFO:root:Running display_info with arguments ('mehak',) and keyword arguments {'age': 21}

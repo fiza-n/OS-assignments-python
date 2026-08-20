@@ -106,3 +106,4 @@ matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 matrix = [n for row in matrix for n in  row if n%2 == 0]
 
 print(matrix)
+print([n for n in range(100) if n%3 == 0 and n%5 == 0])
